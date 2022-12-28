@@ -59,8 +59,13 @@ img{
     text-align: center;
 }
 /*Header*/
-.header{
+.webp .header{
+    background-image: url(../img/banner.webp);
+}/*Para navegadores modernos*/
+.no-webp .header{
     background-image: url(../img/banner.jpg);
+}/*Para navegadores anteriores*/
+.header{
     height: 60rem;
     background-size: cover;/*al usar cover, lo usual es añadir un background position center*/
     background-repeat: no-repeat;
